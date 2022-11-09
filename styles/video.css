@@ -1,0 +1,79 @@
+
+.main{
+    width: 100%;
+   
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 15px;
+    row-gap: 40px;
+;
+
+    border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 221, 221);
+   
+}
+
+
+.card{
+ 
+    width: 100%;
+
+    position: relative;
+ 
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 220px;
+    border-radius: 5px;
+    font-family: Roboto,arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px;
+
+}
+
+.img1{
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 15px;
+ 
+}
+.video-info{
+
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  
+}
+
+
+
+.profile-pic img{
+
+    width: 100%;
+    border-radius: 25px;
+}
+.para1{
+
+    margin-bottom: 10px;
+    color: rgb(34, 34, 34);
+    
+    font-weight: bold;
+}
+.para2{
+
+    margin-bottom: 4px;
+   color:  rgb(149, 149, 149);
+
+}
+.para3{
+
+    font-size: 15px;
+    color: rgb(149, 149, 149);
+    
+
+}

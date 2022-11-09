@@ -1,0 +1,24 @@
+p{
+    font-family:Roboto,arial ;
+}
+body{
+    margin: 0;
+
+    padding-top: 90px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 50px;
+   
+}
+.yt-bell:hover,
+.yt-live,
+.yt-user,
+.hamburger-menu,
+.youtube-logo,
+.search-button,
+.voice-search-button,
+.side-bar1 img,
+.profile-pic img,
+.img1{
+    cursor: pointer;
+}

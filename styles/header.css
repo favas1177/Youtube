@@ -1,0 +1,154 @@
+.header{
+
+    
+    display: flex;
+   
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    height:56px ;
+    background-color: white;
+    z-index: 100;
+  
+}
+
+.left-section{
+
+     display: flex;
+     align-items: center;
+}
+.hamburger-menu{
+
+    height: 25px;
+    margin-left: 24px;
+    margin-right:24px ;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.hamburger-menu:hover{
+
+    background-color: lightgray;
+    
+}
+
+
+.youtube-logo{
+
+   
+    height:120px;
+
+}
+.middle-section{
+    
+   flex: 1;
+   margin-left: 20px;
+   margin-right: 25px;
+   max-width: 700px;
+   display: flex;
+   align-items: center;
+}
+.search-button{
+    height: 43px;
+    width: 48px;
+   margin-left: -1px;
+   margin-right: 10px;
+
+    padding-top: 11px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 20px;
+    border-color: rgb(227, 226, 226);
+    border-style: solid;
+    background-color: white;
+   
+}
+.search-button,
+.voice-search-button,
+.upload-icon-container,
+.bell-icon-container{
+    position: relative;
+}
+.search-button .tooltip,
+.voice-search-button .tooltip ,
+.upload-icon-container .tooltip,
+.bell-icon-container .tooltip{
+
+    font-family: Roboto,airial;
+    position: absolute;
+    background-color: rgb(112, 108, 108);
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 15px;
+    bottom: -30px;
+    opacity:0 ;
+    transition: opacity .15s;
+    pointer-events: none;
+    white-space: nowrap;
+
+}
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.bell-icon-container:hover .tooltip{
+  
+    opacity: 1;
+}
+.voice-search-button{
+    height: 42px;
+    width: 45px;
+    border-radius: 20px;
+    border-color: rgb(224, 223, 223);
+    border-style: solid;
+    background-color: white;
+    
+
+}
+.search-bar{
+    flex: 1;
+    height: 37px ;
+    padding-left: 16px;
+    font-size: 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+    border-color: rgb(221, 214, 214);
+    box-shadow: inset 1px 2px .15 rgb(12, 12, 12);
+   width: 0;
+}
+
+.search-bar::placeholder{
+
+    font-size: 20px;
+
+}
+
+.right-section{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    
+   
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 40px;
+    flex-shrink: 0;
+}
+.yt-live{
+
+    
+    width: 35px;
+}
+.yt-bell{
+    width: 35px;
+
+}
+
+.yt-user{
+    width: 45px;
+    border-radius: 20px;
+}
